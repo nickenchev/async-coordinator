@@ -10,7 +10,7 @@
 		850E5CFC219E3A7F00C664B7 /* AsyncCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850E5CF2219E3A7F00C664B7 /* AsyncCoordinator.framework */; };
 		850E5D01219E3A7F00C664B7 /* AsyncCoordinatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 850E5D00219E3A7F00C664B7 /* AsyncCoordinatorTests.m */; };
 		850E5D15219E3AA700C664B7 /* AsyncTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 850E5D0C219E3AA600C664B7 /* AsyncTask.m */; };
-		850E5D16219E3AA700C664B7 /* AsyncCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 850E5D0D219E3AA600C664B7 /* AsyncCoordinator.h */; };
+		850E5D16219E3AA700C664B7 /* AsyncCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 850E5D0D219E3AA600C664B7 /* AsyncCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		850E5D17219E3AA700C664B7 /* AsyncCoordinatorResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 850E5D0E219E3AA600C664B7 /* AsyncCoordinatorResponder.h */; };
 		850E5D18219E3AA700C664B7 /* AsyncCoordinatedTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 850E5D0F219E3AA600C664B7 /* AsyncCoordinatedTask.h */; };
 		850E5D19219E3AA700C664B7 /* AsyncCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 850E5D10219E3AA600C664B7 /* AsyncCoordinator.m */; };
@@ -18,6 +18,7 @@
 		850E5D1B219E3AA700C664B7 /* AsyncCoordinatorResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 850E5D12219E3AA600C664B7 /* AsyncCoordinatorResult.h */; };
 		850E5D1C219E3AA700C664B7 /* AsyncTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 850E5D13219E3AA700C664B7 /* AsyncTask.h */; };
 		850E5D1D219E3AA700C664B7 /* AsyncCoordinatedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 850E5D14219E3AA700C664B7 /* AsyncCoordinatedTask.m */; };
+		85B35964219E3DBD00DFDBD6 /* AsyncCoordinatorTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 850E5CFB219E3A7F00C664B7 /* AsyncCoordinatorTests.xctest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,9 +118,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850E5D16219E3AA700C664B7 /* AsyncCoordinator.h in Headers */,
 				850E5D17219E3AA700C664B7 /* AsyncCoordinatorResponder.h in Headers */,
 				850E5D18219E3AA700C664B7 /* AsyncCoordinatedTask.h in Headers */,
-				850E5D16219E3AA700C664B7 /* AsyncCoordinator.h in Headers */,
 				850E5D1C219E3AA700C664B7 /* AsyncTask.h in Headers */,
 				850E5D1B219E3AA700C664B7 /* AsyncCoordinatorResult.h in Headers */,
 			);
@@ -211,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B35964219E3DBD00DFDBD6 /* AsyncCoordinatorTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
