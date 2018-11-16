@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		850E5CFC219E3A7F00C664B7 /* AsyncCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850E5CF2219E3A7F00C664B7 /* AsyncCoordinator.framework */; };
 		850E5D01219E3A7F00C664B7 /* AsyncCoordinatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 850E5D00219E3A7F00C664B7 /* AsyncCoordinatorTests.m */; };
-		850E5D15219E3AA700C664B7 /* AsyncTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 850E5D0C219E3AA600C664B7 /* AsyncTask.m */; };
-		850E5D16219E3AA700C664B7 /* AsyncCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 850E5D0D219E3AA600C664B7 /* AsyncCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		850E5D17219E3AA700C664B7 /* AsyncCoordinatorResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 850E5D0E219E3AA600C664B7 /* AsyncCoordinatorResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		850E5D18219E3AA700C664B7 /* AsyncCoordinatedTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 850E5D0F219E3AA600C664B7 /* AsyncCoordinatedTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		850E5D19219E3AA700C664B7 /* AsyncCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 850E5D10219E3AA600C664B7 /* AsyncCoordinator.m */; };
 		850E5D1A219E3AA700C664B7 /* AsyncCoordinatorResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 850E5D11219E3AA600C664B7 /* AsyncCoordinatorResult.m */; };
 		850E5D1B219E3AA700C664B7 /* AsyncCoordinatorResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 850E5D12219E3AA600C664B7 /* AsyncCoordinatorResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		850E5D1C219E3AA700C664B7 /* AsyncTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 850E5D13219E3AA700C664B7 /* AsyncTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		850E5D1D219E3AA700C664B7 /* AsyncCoordinatedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 850E5D14219E3AA700C664B7 /* AsyncCoordinatedTask.m */; };
+		856347B6219F2A9D0055CD59 /* AsyncCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850E5CF2219E3A7F00C664B7 /* AsyncCoordinator.framework */; };
+		856347B8219F2B570055CD59 /* AsyncCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 856347B7219F2B570055CD59 /* AsyncCoordinator.h */; };
 		85B35964219E3DBD00DFDBD6 /* AsyncCoordinatorTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 850E5CFB219E3A7F00C664B7 /* AsyncCoordinatorTests.xctest */; };
 /* End PBXBuildFile section */
 
@@ -37,15 +35,13 @@
 		850E5CFB219E3A7F00C664B7 /* AsyncCoordinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncCoordinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		850E5D00219E3A7F00C664B7 /* AsyncCoordinatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncCoordinatorTests.m; sourceTree = "<group>"; };
 		850E5D02219E3A7F00C664B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		850E5D0C219E3AA600C664B7 /* AsyncTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncTask.m; sourceTree = "<group>"; };
-		850E5D0D219E3AA600C664B7 /* AsyncCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncCoordinator.h; path = "../../rover-ios/Rover/AsyncCoordinator/AsyncCoordinator.h"; sourceTree = "<group>"; };
 		850E5D0E219E3AA600C664B7 /* AsyncCoordinatorResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncCoordinatorResponder.h; sourceTree = "<group>"; };
 		850E5D0F219E3AA600C664B7 /* AsyncCoordinatedTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncCoordinatedTask.h; sourceTree = "<group>"; };
 		850E5D10219E3AA600C664B7 /* AsyncCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncCoordinator.m; sourceTree = "<group>"; };
 		850E5D11219E3AA600C664B7 /* AsyncCoordinatorResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncCoordinatorResult.m; sourceTree = "<group>"; };
 		850E5D12219E3AA600C664B7 /* AsyncCoordinatorResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncCoordinatorResult.h; sourceTree = "<group>"; };
-		850E5D13219E3AA700C664B7 /* AsyncTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncTask.h; sourceTree = "<group>"; };
 		850E5D14219E3AA700C664B7 /* AsyncCoordinatedTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncCoordinatedTask.m; sourceTree = "<group>"; };
+		856347B7219F2B570055CD59 /* AsyncCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncCoordinator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				850E5CFC219E3A7F00C664B7 /* AsyncCoordinator.framework in Frameworks */,
+				856347B6219F2A9D0055CD59 /* AsyncCoordinator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,13 +86,11 @@
 			children = (
 				850E5D0F219E3AA600C664B7 /* AsyncCoordinatedTask.h */,
 				850E5D14219E3AA700C664B7 /* AsyncCoordinatedTask.m */,
-				850E5D0D219E3AA600C664B7 /* AsyncCoordinator.h */,
+				856347B7219F2B570055CD59 /* AsyncCoordinator.h */,
 				850E5D10219E3AA600C664B7 /* AsyncCoordinator.m */,
 				850E5D0E219E3AA600C664B7 /* AsyncCoordinatorResponder.h */,
 				850E5D12219E3AA600C664B7 /* AsyncCoordinatorResult.h */,
 				850E5D11219E3AA600C664B7 /* AsyncCoordinatorResult.m */,
-				850E5D13219E3AA700C664B7 /* AsyncTask.h */,
-				850E5D0C219E3AA600C664B7 /* AsyncTask.m */,
 				850E5CF6219E3A7F00C664B7 /* Info.plist */,
 			);
 			path = AsyncCoordinator;
@@ -118,11 +112,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				850E5D16219E3AA700C664B7 /* AsyncCoordinator.h in Headers */,
 				850E5D17219E3AA700C664B7 /* AsyncCoordinatorResponder.h in Headers */,
-				850E5D18219E3AA700C664B7 /* AsyncCoordinatedTask.h in Headers */,
-				850E5D1C219E3AA700C664B7 /* AsyncTask.h in Headers */,
 				850E5D1B219E3AA700C664B7 /* AsyncCoordinatorResult.h in Headers */,
+				856347B8219F2B570055CD59 /* AsyncCoordinator.h in Headers */,
+				850E5D18219E3AA700C664B7 /* AsyncCoordinatedTask.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +216,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				850E5D15219E3AA700C664B7 /* AsyncTask.m in Sources */,
 				850E5D1A219E3AA700C664B7 /* AsyncCoordinatorResult.m in Sources */,
 				850E5D1D219E3AA700C664B7 /* AsyncCoordinatedTask.m in Sources */,
 				850E5D19219E3AA700C664B7 /* AsyncCoordinator.m in Sources */,
@@ -301,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -356,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
