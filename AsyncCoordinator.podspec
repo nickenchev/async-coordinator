@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'AsyncCoordinator'
-  spec.version      = '1.2'
+  spec.version      = '1.2.1'
   spec.license      = 'BSD'
   spec.homepage     = 'https://github.com/nickenchev/async-coordinator'
   spec.authors      = { 'Nick Enchev' => 'nikolaenchev@gmail.com' }
